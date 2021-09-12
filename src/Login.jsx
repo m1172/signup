@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
-import { Container } from './style';
+import { Body, Container, Head } from './style';
 
 export default class Login extends Component {
   render() {
     return (
       <div>
         <Container>
-          <input type='text' />
+          <Head>
+            <h1>Welcome Back</h1>
+            <h3>Login back into your account</h3>
+            <Body>
+              <input type='text' />
+            </Body>
+          </Head>
         </Container>
       </div>
     );
