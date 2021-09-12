@@ -13,15 +13,19 @@ export const Container = styled.div`
 export const Head = styled.div`
   background-color: #336cef;
   color: white;
+  width: 350px;
   height: 150px;
+  padding-bottom: 0px;
+  border-radius: 40px 40px 0 0;
+`;
+
+export const Wrapper = styled.div`
+  background-color: white;
+  width: 350px;
+  height: 400px;
+  border-radius: 0 0 40px 40px;
 `;
 
 export const Body = styled.div`
-  background-color: white;
-  width: 400px;
-  height: 500px;
-`;
-export const Title = styled.h1`
-  text-decoration: white;
-  margin: 50px 0 0 20px;
+  margin: 30px 0 0 40px;
 `;

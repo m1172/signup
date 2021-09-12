@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Body, Container, Head, Title } from './style';
+import { Body, Container, Head, Title, Title2, Wrapper } from './style';
+import './App.css';
 
 export default class Login extends Component {
   render() {
@@ -7,12 +8,18 @@ export default class Login extends Component {
       <div>
         <Container>
           <Head>
-            <Title>Welcome Back</Title>
-            <h3>Login back into your account</h3>
             <Body>
-              <input type='text' />
+              <img src='' alt='' />
+              <h1>Welcome Back</h1>
+              <h4>Login back into your account</h4>
             </Body>
           </Head>
+          <Wrapper>
+            <Body>
+              <h2>Login</h2>
+              <input type='text' />
+            </Body>
+          </Wrapper>
         </Container>
       </div>
     );
