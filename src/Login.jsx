@@ -10,6 +10,7 @@ export default class Login extends Component {
         <Container>
           <Head>
             <Body>
+              <div></div>
               <img src='' alt='' />
               <h1>Welcome Back</h1>
               <h4>Login back into your account</h4>
