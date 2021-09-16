@@ -17,7 +17,8 @@ export default class Login extends Component {
           <Wrapper>
             <Body>
               <h2>Login</h2>
-              <input type='text' />
+              <input type='text' placeholder=' Email address' />
+              <input type='text' placeholder='Password' />
             </Body>
           </Wrapper>
         </Container>
