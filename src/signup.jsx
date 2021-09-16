@@ -16,11 +16,12 @@ export default class Signup extends Component {
           </Head>
           <Wrapper>
             <Body>
-              <h2>Login</h2>
+              <h2>Sign Up</h2>
+              <Input type='text' placeholder='Full Name' />
               <Input type='text' placeholder=' Email address' />
               <Input type='text' placeholder='Password' />
               <Button type='submit'>LOGIN</Button>
-              <p>Don't Have An Account? Join Now</p>
+              <p>Already Have An Account? Log In</p>
             </Body>
           </Wrapper>
         </Container>
