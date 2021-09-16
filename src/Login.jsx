@@ -21,7 +21,7 @@ export default class Login extends Component {
               <Input type='text' placeholder='Password' />
               <Button type='submit'>LOGIN</Button>
               <p className='text-white text-center'>
-                Don't Have An Account? Sign Up
+                Don't Have An Account? Join Now
               </p>
             </Body>
           </Wrapper>
