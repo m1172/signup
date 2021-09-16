@@ -10,8 +10,8 @@ export default class Signup extends Component {
           <Head>
             <Body>
               <img src='' alt='' />
-              <h1>Welcome Back</h1>
-              <h4>Login back into your account</h4>
+              <h1>Welcome</h1>
+              <h4>Signup into your account</h4>
             </Body>
           </Head>
           <Wrapper>
