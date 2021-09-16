@@ -27,14 +27,14 @@ export const Wrapper = styled.div`
 `;
 
 export const Body = styled.div`
-  margin: 30px 0 0 40px;
+  margin: 30px 40px 0 40px;
 `;
 export const Input = styled.input`
   margin: 10px 0;
   font-size: 2px;
   border-radius: 10px;
   display: block;
-  width: 90%;
+  width: 100%;
   padding: 0;
   border: none;
   outline: none;
@@ -58,7 +58,7 @@ export const Button = styled.button`
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
   transition: 0.5s;
   display: block;
-  width: 90%;
+  width: 100%;
   padding: 0;
   border: none;
   outline: none;
