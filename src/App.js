@@ -8,7 +8,7 @@ export default class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/Login'>
             <Login />
           </Route>
           <Route path='/'>

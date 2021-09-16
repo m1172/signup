@@ -24,7 +24,10 @@ export default class Signup extends Component {
               <Button type='submit'>SIGN UP</Button>
               <p>
                 Already Have An Account?{' '}
-                <Link to='/' style={{ color: 'blue', textDecoration: 'none' }}>
+                <Link
+                  to='/Login'
+                  style={{ color: 'blue', textDecoration: 'none' }}
+                >
                   Log In
                 </Link>
               </p>
