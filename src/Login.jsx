@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Body, Container, Head, Title, Title2, Wrapper } from './style';
+import { Body, Button, Container, Head, Input, Wrapper } from './style';
 import './App.css';
 
 export default class Login extends Component {
@@ -17,9 +17,9 @@ export default class Login extends Component {
           <Wrapper>
             <Body>
               <h2>Login</h2>
-              <input type='text' placeholder=' Email address' />
-              <input type='text' placeholder='Password' />
-              <button type='submit'>LOGIN</button>
+              <Input type='text' placeholder=' Email address' />
+              <Input type='text' placeholder='Password' />
+              <Button type='submit'>LOGIN</Button>
             </Body>
           </Wrapper>
         </Container>
