@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Body, Button, Container, Head, Input, Wrapper } from './style';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 export default class Login extends Component {
   render() {
@@ -21,7 +22,10 @@ export default class Login extends Component {
               <Input type='text' placeholder='Password' />
               <Button type='submit'>LOGIN</Button>
               <p className='text-white text-center'>
-                Don't Have An Account? Join Now
+                Don't Have An Account?
+                <Link to='/' style={{ color: 'blue', textDecoration: 'none' }}>
+                  Join Now
+                </Link>
               </p>
             </Body>
           </Wrapper>

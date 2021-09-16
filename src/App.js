@@ -6,10 +6,16 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 export default class App extends Component {
   render() {
     return (
-      <div>
-        {/* <Login /> */}
-        <Signup />
-      </div>
+      <Router>
+        <Switch>
+          <Route exact path='/'>
+            <Login />
+          </Route>
+          <Route path='/'>
+            <Signup />
+          </Route>
+        </Switch>
+      </Router>
     );
   }
 }
