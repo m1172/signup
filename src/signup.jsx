@@ -20,9 +20,7 @@ export default class Signup extends Component {
               <Input type='text' placeholder=' Email address' />
               <Input type='text' placeholder='Password' />
               <Button type='submit'>LOGIN</Button>
-              <p className='text-white text-center'>
-                Don't Have An Account? Join Now
-              </p>
+              <p>Don't Have An Account? Join Now</p>
             </Body>
           </Wrapper>
         </Container>
